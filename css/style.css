@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin:100px;
+}
+
+.bbox{
+  opacity: 0.90;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(circle at top left, aqua, blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rbox{
+  opacity: 0.90;
+  height: 200px;
+  width: 200px;
+  background: radial-gradient(circle at top left, orange, red);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #f06d06;
+  font-size: 80%;
+  padding: 20px;
+}
+
+main {
+  background: white;
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
